@@ -1,0 +1,198 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+
+body {
+	font: 14px Arial, sans-serif;
+	width: 100%;
+  background-color: #CBD9E0;
+  margin: 15px 0;
+}
+.wrapper {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+a:focus {
+  outline: none;
+}
+.btn:focus {
+  outline: none;
+}
+h4 {
+  margin: 10px 0;
+  text-align: center;
+}
+hr {
+  border: none; /* Убираем границу для браузера Firefox */
+  color: #337AB7; /* Цвет линии для браузера Internet Explorer */
+  background-color: #337AB7; /* Цвет линии для браузера Firefox и Opera */
+  height: 2px;
+  margin: 0 0 10px;
+}
+dl {
+  margin-bottom: 10px;
+}
+
+/* Bootstrap
+-----------------------------------------------------------------------------*/
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
+.col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12,
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
+.col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6,
+.col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12,
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6,
+.col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  min-height: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  position: relative; }
+
+/* Header
+-----------------------------------------------------------------------------*/
+header {
+	/*height: 200px;*/
+	background: #FFE680;
+  border-bottom: 3px #0066D0 solid;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	/*border-left: 250px solid #B5E3FF;*/
+	position: relative;
+  background-color: #DDD;
+  color: #333;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+/*
+.main {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	margin-right: -100%;
+}
+*/
+.content {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	/*width: 250px;*/
+	position: relative;
+	/*background: #EEE;*/
+	/*left: -250px;*/
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 5px 0;
+}
+.left-sidebar .nav > li > a {
+  padding: 5px;
+}
+.left-sidebar .meteo {
+  margin: 10px 0 0 0;
+}
+.left-sidebar .currency {
+  margin: 10px 0 0 2px;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+footer {
+	/*height: 50px;*/
+	background: #777;
+  color: #333;
+  padding: 10px 0;
+  text-align: center;
+  border-top: 3px #0066D0 solid;
+}
+footer li {
+  margin-top: 5px;
+}
+footer a {
+  color: #BBB;
+}
+footer a:hover, footer a:focus {
+  color: #FFF;
+  text-decoration: none;
+}
+footer hr {
+  border: none; /* Убираем границу для браузера Firefox */
+  color: #909090; /* Цвет линии для браузера Internet Explorer */
+  background-color: #909090; /* Цвет линии для браузера Firefox и Opera */
+  height: 1px;
+  margin: 5px 0 0;
+}
+
+
+/* Главная (main)
+-----------------------------------------------------------------------------*/
+.main ul {
+  margin-left: 25px;
+}
+.main .property {
+  font-weight: bold;
+  text-align: right;
+}
+
+/* Документы (docs)
+-----------------------------------------------------------------------------*/
+.docs .thumbnail {
+  text-align: center;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  background-color: #EEE;
+  border: 1px solid #337AB7;
+  border-radius: 10px;
+}
+.docs .caption {
+  min-height: 50px;
+  max-height: 50px;
+  padding: 3px;
+}
+
+/* Объявления (notice)
+-----------------------------------------------------------------------------*/
+.notice {
+  background-image: url(/media/img/cell.jpg);
+  min-height: 100px;
+  border-radius: 15px;
+  font: 1.2em Georgia, Times New Roman, serif;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.notice .text {
+  padding: 0 1em 1em;
+}
+.notice .sign {
+  text-align: right;
+  font-size: 0.85em;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.notice hr {
+  height: 1px;
+  margin-bottom: 5px;
+}
+.notice a {
+  text-decoration: underline;
+  color: #000;
+}
+
+/* Фотографии (photo)
+-----------------------------------------------------------------------------*/
+.photo img {
+  height: 150px;
+  margin-bottom: 3px;
+}
