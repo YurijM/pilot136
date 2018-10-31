@@ -10,7 +10,7 @@
          <td>
            <div class="leftCol">
              <a href="http://www.gismeteo.ru" target="_blank">
-               <img alt="Gismeteo" title="Gismeteo" src="http://www.gismeteo.ru/static/images/informer2/logo-mini2.png" align="absmiddle" border="0" />
+               <img alt="Gismeteo" title="Gismeteo" src="http://www.gismeteo.ru/static/images/informer2/logo-mini2.png" />
                <span>Gismeteo</span>
              </a>
            </div>
@@ -23,4 +23,4 @@
     </div>
   </div>
 </div>
-<script src="http://www.gismeteo.ru/api/informer/getinformer/E5m5OgrpgI80M4/" type="text/javascript"></script>
+<script src="http://www.gismeteo.ru/api/informer/getinformer/E5m5OgrpgI80M4/"></script>
