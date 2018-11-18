@@ -187,6 +187,11 @@ class Model_Docs extends Model {
           'doc' => $docs.'bank_account.pdf',
         ),
 				array(
+					'title' => 'Взнос на капремонт за октябрь 2018г.',
+					'img' => $img_docs.'payment_201810.jpg',
+					'doc' => $docs.'payment_201810.pdf',
+				),
+				array(
 					'title' => 'Взнос на капремонт за сентябрь 2018г.',
 					'img' => $img_docs.'payment_201809.jpg',
 					'doc' => $docs.'payment_201809.pdf',
