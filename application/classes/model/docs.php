@@ -34,6 +34,11 @@ class Model_Docs extends Model {
       ),
       'finance' => array(
 				array(
+					'title' => 'Финансовый отчёт за 3 квартал 2018г.',
+					'img' => $img_docs.'financial_report_2018_3.jpg',
+					'doc' => $docs.'financial_report_2018_3.pdf',
+				),
+				array(
 					'title' => 'Финансовый отчёт за 2 квартал 2018г.',
 					'img' => $img_docs.'financial_report_2018_2.jpg',
 					'doc' => $docs.'financial_report_2018_2.pdf',
